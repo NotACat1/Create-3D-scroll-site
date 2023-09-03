@@ -1,0 +1,8 @@
+.gallery__content-text {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  font-weight: 100;
+  font-size: calc(var(--index) * 1.5);
+	line-height: 1;
+  text-align: justify;
+}

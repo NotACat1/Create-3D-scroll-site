@@ -1,0 +1,25 @@
+/* normalize.css - resetting CSS styles */
+@import url("../vendor/normalize/normalize.css");
+
+/* Connecting the Montserrat font group */
+@import url("../vendor/fonts/Montserrat/montserrat.css");
+
+/* root */
+@import url("../blocks/root/root.css");
+
+/* gallery */
+@import url("../blocks/gallery/gallery.css");
+@import url("../blocks/gallery/__frame/gallery__frame.css");
+@import url("../blocks/gallery/__frame/_bg/gallery__frame_bg.css");
+@import url("../blocks/gallery/__frame/_two-columns/gallery__frame_two-columns.css");
+@import url("../blocks/gallery/__content/gallery__content.css");
+@import url("../blocks/gallery/__content/_position/gallery__content_position_left.css");
+@import url("../blocks/gallery/__content/_position/gallery__content_position_right.css");
+@import url("../blocks/gallery/__content-title/gallery__content-title.css");
+@import url("../blocks/gallery/__content-title/_main/gallery__content-title_main.css");
+@import url("../blocks/gallery/__content-media/gallery__content-media.css");
+@import url("../blocks/gallery/__content-text/gallery__content-text.css");
+
+/* gallery */
+@import url("../blocks/soundbutton/soundbutton.css");
+@import url("../blocks/soundbutton/_paused/soundbutton_paused.css");

@@ -1,0 +1,6 @@
+.gallery__content-title_main {
+  width: min-content;
+  font-weight: 400;
+  font-size: calc(var(--index) * 3.5);
+  text-align: center;
+}

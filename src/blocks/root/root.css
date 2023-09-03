@@ -1,0 +1,18 @@
+.root {
+  --index: calc(1vw + 1vh);
+	--gutter: 30px;
+	--side-small: 26;
+	--side-big: 36;
+	--transition: .75s cubic-bezier(.075, .5, 0, 1);
+  color: #fff;
+  background-color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Скрываем Scrollbar */
+body {
+	scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar { 
+	display: none; /* Safari and Chrome */
+}

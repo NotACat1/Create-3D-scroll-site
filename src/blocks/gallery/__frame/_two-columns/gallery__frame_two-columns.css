@@ -1,0 +1,5 @@
+.gallery__frame_two-columns {
+  display: grid;
+  gap: calc(var(--index) * 5);
+  grid-template-columns : repeat(2, 1fr);
+}

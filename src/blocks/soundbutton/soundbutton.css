@@ -1,0 +1,8 @@
+.soundbutton {
+  position: fixed;
+	bottom: 5vh;
+	right: 5vw;
+	cursor: pointer;
+	width: 24px;
+	transition: .25s ease;
+}

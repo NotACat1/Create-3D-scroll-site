@@ -1,0 +1,4 @@
+.gallery__content_position_right {
+  grid-column : span 2;
+  text-align: left;
+}
