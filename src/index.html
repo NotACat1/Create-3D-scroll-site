@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Кодировка и шапка страницы -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" href="<%=require('./images/favicon/apple-touch-icon.png')%>">
+  <link rel="icon" href="<%=require('./images/favicon/favicon.ico')%>" sizes="16x16" type="image/x-icon">  
+
+  <!-- Метатеги для браузера -->
+  <meta name="description" content="Этот веб-сайт предлагает необычное решение для навигации, заменяя стандартный скролл вверх-вниз на движение вглубь страницы. Этот инновационный подход создает уникальный и интересный опыт взаимодействия с веб-сайтом, позволяя пользователям исследовать контент, двигаясь вглубь страницы, вместо традиционного вертикального скролла.">
+  <meta name="keywords" content="HTML5, CSS, JavaScript">
+  <meta name="author" content="Рябов Даниил">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Create 3D scroll site">
+  <meta property="og:description" content="Этот веб-сайт предлагает необычное решение для навигации, заменяя стандартный скролл вверх-вниз на движение вглубь страницы. Этот инновационный подход создает уникальный и интересный опыт взаимодействия с веб-сайтом, позволяя пользователям исследовать контент, двигаясь вглубь страницы, вместо традиционного вертикального скролла.">
+  <meta property="og:url" content="https://github.com/NotACat1">
+  <meta property="og:image" content="https://ie.wampi.ru/2023/09/01/main.jpg">
+  <meta property="og:site_name" content="NotACat">
+  <meta property="og:locale" content="ru_RU">
+
+  <title>Create 3D scroll site</title>
+</head>
+<body class="root">
+  <section class="gallery">
+    <article class="gallery__frame gallery__frame_bg"">
+      <div class="gallery__content">
+        <h1 class="gallery__content-title gallery__content-title_main">Beautiful World</h1>
+      </div>
+    </article>
+    <article class="gallery__frame gallery__frame_two-columns gallery__frame_bg"">
+      <div class="gallery__content gallery__content_position_left">
+        <img class="gallery__content-media" src="<%=require('./images/lake_moraine_canada.jpg')%>" alt="Lake Moraine Canada">
+      </div>
+    </article>
+    <article class="gallery__frame gallery__frame_two-columns gallery__frame_bg"">
+      <div class="gallery__content gallery__content_position_right">
+        <video class="gallery__content-media" src="<%=require('./media/forest.mp4')%>" autoplay loop muted></video>
+      </div>
+    </article>
+    <article class="gallery__frame gallery__frame_two-columns gallery__frame_bg"">
+      <div class="gallery__content gallery__content_position_right">
+        <h2 class="gallery__content-title">Pure planet</h2>
+        <p class="gallery__content-text">Lorem ipsum dolor sit amet, consectetur elit adipisicing. Nemo fugit, rerum dolorem assumenda consequatur dicta error iure laboriosam temporibus.</p>
+      </div>
+    </article>
+    <article class="gallery__frame gallery__frame_bg"">
+      <div class="gallery__content">
+        <img class="gallery__content-media" src="<%=require('./images/nature_of_iceland.jpg')%>" alt="Nature of Iceland">
+      </div>
+    </article>
+    <article class="gallery__frame gallery__frame_two-columns gallery__frame_bg">
+      <div class="gallery__content gallery__content_position_right">
+        <img class="gallery__content-media" src="<%=require('./images/foggy_landscape.jpg')%>" alt="Foggy landscape">
+      </div>
+    </article>
+    <article class="gallery__frame gallery__frame_two-columns gallery__frame_bg"">
+      <div class="gallery__content gallery__content_position_left">
+        <h2 class="gallery__content-title">Ask the Mountains</h2>
+        <p class="gallery__content-text">Lorem ipsum dolor sit amet, consectetur elit. Rerum dolorem assumenda consequatur dicta error iure laboriosam temporibus omnis quae eaque aliquam esse unde accusamus dolores non soluta.</p>
+      </div>
+    </article>
+    <article class="gallery__frame gallery__frame_bg">
+      <div class="gallery__content">
+        <img class="gallery__content-media" src="<%=require('./images/alpine_mountains.jpg')%>" alt="Alpine mountains">
+      </div>
+    </article>
+    <article class="gallery__frame gallery__frame_two-columns gallery__frame_bg"">
+      <div class="gallery__content gallery__content_position_left">
+        <video class="gallery__content-media" src="<%=require('./media/forest.mp4')%>" autoplay loop muted></video>
+      </div>
+    </article>
+    <article class="gallery__frame gallery__frame_two-columns gallery__frame_bg">
+      <div class="gallery__content gallery__content_position_right">
+        <img class="gallery__content-media" src="<%=require('./images/seascape.jpg')%>" alt="Seascape">
+      </div>
+    </article>
+    <article class="gallery__frame gallery__frame_bg">
+      <div class="gallery__content">
+        <video class="gallery__content-media" src="<%=require('./media/forest.mp4')%>" autoplay loop muted></video>
+      </div>
+    </article>
+    <article class="gallery__frame gallery__frame_bg">
+      <div class="gallery__content">
+        <p class="gallery__content-text">&copy; NotACat</p>
+      </div>
+    </article>
+  </section>
+	<img class="soundbutton soundbutton_paused" src="<%=require('./images/sound.gif')%>" alt="Sound">
+	<audio class="audio" src="<%=require('./media/ambient.mp3')%>" loop></audio>
+</body>
+</html>
